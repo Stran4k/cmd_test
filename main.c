@@ -7,7 +7,7 @@ int main (int argc, char **argv)
     for(int i = 0;i< argc;i++) 
         printf("%s\r\n",argv[i]);
         
-printf("%s\r\n","\nEnd...");
+printf("%s\t","End...\n");
 }
 /*
  * 
@@ -45,7 +45,7 @@ printf("%s\r\n","\nEnd...");
  * git add LICENSE
  * 
  * git commit -m "first commit Testing terminal"
- * 
+ * `
  * 
  * second  commit
  * 
