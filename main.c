@@ -49,6 +49,11 @@ printf("%s\t","End...\n");
  * 
  * second  commit
  * 
+ * git branch       
+ * 
+ * git merge main --no-ff --allow-unrelated-histories -m "Слияние веток master и main"
+ *  слияние веток у которых нет предков
+ * 
  * 
 These are common Git commands used in various situations:
 
