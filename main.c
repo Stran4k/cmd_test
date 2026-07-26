@@ -10,7 +10,7 @@ int main (int argc, char **argv)
 printf("%s\t","End...\n");
 }
 /*
- * 
+ * vers no master 
  * 
  * gcc main.c -o test1.exe 
  *  сбока .exe с именем 
@@ -46,10 +46,16 @@ printf("%s\t","End...\n");
  * 
  * git commit -m "first commit Testing terminal"
  * `
+ * push
+ *  отправка данных
+ * pull 
+ *  вытягивание данных
  * 
- * second  commit
  * 
  * git branch       
+ * 
+ * git branch git --delete master
+ *  удаление ветки
  * 
  * git merge main --no-ff --allow-unrelated-histories -m "Слияние веток master и main"
  *  слияние веток у которых нет предков
