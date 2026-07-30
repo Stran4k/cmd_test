@@ -12,8 +12,10 @@ printf("%s\t","End...\n");
 /*
  * vers no master 
  * 
- * gcc main.c -o test1.exe 
- *  сбока .exe с именем 
+ * gcc main.c -o test1.exe
+ *  сбока .exe C  
+ * gcc main.cpp -lstdc++ -o main.exe
+ *  сбока .exe C++ 
  * 
  * ./test1 -a -s ds
  *  запуск .exe с параметрами строки
